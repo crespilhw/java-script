@@ -1,0 +1,29 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+        </head>
+        <body>
+            <script>
+                let valor = Number(prompt("Insira o valor: "))
+                let forma = (prompt("1: Á vista 2: Parcelado em 3x"))
+                if (forma == "1") {
+                    let desconto = valor*0.10;
+                    let avista = valor - desconto;
+                    let resultado = `Devera pagar ${avista} R$`;
+                    alert(resultado);
+                } else {
+                   let parcelado = valor/3; 
+                   let resultado = `Devera pagar 3x de ${parcelado} R$`;
+                   alert(resultado);
+                }
+            
+
+                console.log(resultado);
+        
+            </script>
+            
+        </body>
+        </html>
