@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <Script>
+        let sal = Number(prompt("Insira o valor do salário: "))
+        let aumento = sal*0.15;
+        let saumento = sal+aumento;
+        let imposto = aumento*0.08
+        let desconto = aumento-imposto;
+        let sfinal = sal + desconto;
+        let resultado = `O salário era de R$${sal}, como aumento ficou R$${saumento}, o salário final será de R$${sfinal}.`;
+        console.log(resultado);
+        alert(resultado);
+    </Script>
+</body>
+</html>
